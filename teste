@@ -1,0 +1,51 @@
+name = 'Luis'
+
+age = 23
+
+hight = 1.79
+
+city = 'Cambé'
+
+state = 'Paraná'
+
+country = 'Brasil'
+
+tipo_nome = type(name)
+
+tipo_idade = type(age)
+
+tipo_cidade = type(city)
+
+tipo_estado = type(state)
+
+tipo_pais = type(country)
+
+tipo_altura = type(hight)
+
+
+
+print(name)
+
+print(age)
+
+print(city)
+
+print(state)
+
+print(country)
+
+print(hight)
+
+print(tipo_nome)
+
+print(tipo_idade)
+
+print(tipo_cidade)
+
+print(tipo_estado)
+
+print(tipo_pais)
+
+print(tipo_altura)
+
+print(name, 'have', age, 'years old', 'with', hight,',', 'livin in',city, ',', state, ',', country)
